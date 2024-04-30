@@ -91,34 +91,6 @@
     min-width: 600px;
 }
 
-@media (max-width: 1670px) {
-    .hero_section {
-        max-width: 1670px;
-        height:100%;
-      flex-direction: column;
-      align-items: center;
-      flex-wrap: wrap;
-      flex-shrink: 1;
-    }
-    .hero_image{
-        flex:1;
-        padding:10px;
-    }
-    .hero_image > img{
-        width:100%;
-    }
-    .hero_text{
-        flex:1;
-        flex-wrap: wrap;
-        min-width: none;
-        padding:10px;
-    }
-    .hero_text > span{
-        min-width: 0;
-        background-color: red;
-    }
-  }
-
 .hero_text{
     display: flex;
     flex-direction: column;
@@ -162,6 +134,37 @@
     font-size:25px;
     text-align: center;
 }
+
+@media (max-width: 1670px) {
+    .hero_section {
+        max-width: 1670px;
+        height:100%;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-shrink: 1;
+    }
+    .hero_image{
+        flex:1;
+        padding:10px;
+    }
+    .hero_image > img{
+        width:100%;
+    }
+    .hero_text{
+        flex:1;
+        flex-wrap: wrap;
+        min-width: none;
+        padding:10px;
+    }
+    .hero_text > span{
+        min-width: 0;
+
+    }
+    #mainbolded{
+        font-size: 10vw;
+    }
+  }
 
 /**
 **/
@@ -210,7 +213,6 @@ label[for="Phone"]{
     align-items: center;
     padding-top: 25px;
     gap:10px;
-    background-color: aquamarine;
 }
 
 #official_rules{
@@ -255,3 +257,58 @@ select{
 
 /**
 **/
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #404041;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 200px;
+    justify-content: space-between;
+    min-width: 600px;
+}
+
+.legal{
+    display: flex;
+    flex-basis: 33%;
+    padding-left: 100px;
+    font-family:"SimplyCricketBook" ;
+    font-size:10px
+}
+
+.policies{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    font-family:"SimplyCricketBook" ;
+    font-size:10px;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    flex-basis:40%;
+    font-family: "SimplyCricketMedium";
+    align-items: center;
+}
+
+#oncricket{
+    margin-right: 120px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.icons > img{
+    width:auto;
+}
+
+
