@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "SimplyCricketBold";
+    src: url("Assets/Fonts/SimplyCricket-Bold.ttf")
+}
+
+@font-face {
+    font-family: "SimplyCricketBook";
+    src: url("Assets/Fonts/SimplyCricket-Book.ttf");
+}
+
+@font-face {
+    font-family: "SimplyCricketMedium";
+    src: url("Assets/Fonts/SimplyCricket-Medium.ttf");
+}
+
+.grey_nav {
+    font-family: "SimplyCricketMedium";
+    background-color: #404041;
+    width: 100%;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.SignIn{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    padding-left: 60px;
+}
+
+#Smile{
+    height:33%;
+    width: auto;
+    align-self: center;
+}
+
+#SignIn{
+    align-self: center;
+    font-size:16px;
+    color: white;
+    padding-left: 5px;
+}
+
+.Nav{
+    font-size: 16px;
+    color: white;
+    margin-right: 120px;
+}
+
+/****
+**/
+
+.white_nav{
+    font-family: "SimplyCricketMedium";
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.acct_nav_container{
+    display: flex;
+    width:70%;
+    justify-content: space-between;
+}
+
+.acct_nav{
+    font-size: 25px;
+    margin-right: 20px;
+    flex-basis:100%;
+}
+
+.logo{
+    display: flex;
+    height:80%;
+    padding-left: 40px;
+    flex-shrink: 5;
+}
+
+#CricketLogo {
+    height:auto;
+}
+
+/***
+***/
+.hero_section{
+    display: flex;
+    background-color: #60a630;
+    padding-top: 20px;
+    min-width: 600px;
+}
+
+@media (max-width: 1670px) {
+    .hero_section {
+        max-width: 1670px;
+        height:100%;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-shrink: 1;
+    }
+    .hero_image{
+        flex:1;
+        padding:10px;
+    }
+    .hero_image > img{
+        width:100%;
+    }
+    .hero_text{
+        flex:1;
+        flex-wrap: wrap;
+        min-width: none;
+        padding:10px;
+    }
+    .hero_text > span{
+        min-width: 0;
+        background-color: red;
+    }
+  }
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    text-align: center;
+}
+
+#maintext{
+    color:white;
+    font-family: "SimplyCricketBook";
+    font-size: 50px;
+}
+
+#mainbolded{
+    color:white;
+    font-family: "SimplyCricketBold";
+    font-size: 90px;
+}
+
+#mainsmall{
+    color:white;
+    font-family: "SimplyCricketBook";
+    font-size:30px;
+    padding-bottom: 50px;
+}
+
+#Enter{
+    padding-top: 30px;
+}
+
+.main_text_smallbold{
+    color:white;
+    font-family: "SimplyCricketMedium";
+    font-size:25px;
+    padding-right: 20px;
+}
+
+#url{
+    color:black;
+    font-family: "SimplyCricketMedium";
+    font-size:25px;
+    text-align: center;
+}
+
+/**
+**/
+
+.leadform{
+    display: flex;
+    width: 100%;
+    min-width: 600px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    gap:10px;
+}
+
+.leadform > label{
+    font-family: "SimplyCricketBook";
+    font-size: 30px;
+    margin-right: 240px;
+}
+
+.leadform > input{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
+
+label[for="Email"]{
+    margin-right: 320px;
+}
+
+label[for="Phone"]{
+    margin-right: 185px;
+}
+
+#Phone{
+    text-align: left;
+}
+
+/**
+**/
+
+.rules{
+    display: flex;
+    min-width: 600px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    gap:10px;
+    background-color: aquamarine;
+}
+
+#official_rules{
+    color: #60a630;
+    flex-basis: 200px;
+    font-size: 50px;
+    font-family: "SimplyCricketBold";
+    margin-right: 100px;
+}
+
+label[for="Agree"]{
+    font-family: "SimplyCricketBook";
+    margin-right: 55px;
+    font-size: 30px;
+}
+
+label[for="opt"]{
+    font-family: "SimplyCricketBook";
+    margin-right: -740px;
+    font-size: 30px;
+}
+
+#optional{
+    font-family: "SimplyCricketBook";
+    font-size: 15px;
+    padding-left: 200px;
+}
+
+label[for="carrier"]{
+    padding-top: 40px;
+    font-family: "SimplyCricketBook";
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+select{
+    font-family: "SimplyCricketBook";
+    margin-right: 50px;
+    width: 400px;
+    height: 30px;
+}
