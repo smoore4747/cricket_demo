@@ -18,15 +18,19 @@
   background-color: #404041;
   width: 100%;
   display: flex;
-  flex-basis: 50%;
   justify-content: space-between;
 }
 
 .SignIn {
   display: flex;
   justify-content: flex-start;
-  margin-right: auto;
   padding-left: 60px;
+}
+
+.rightnav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
 }
 
 #Smile {
@@ -45,7 +49,7 @@
 .Nav {
   font-size: 16px;
   color: white;
-  margin-right: 120px;
+  margin-right: 10px;
 }
 
 /****
@@ -80,7 +84,7 @@
   height: auto;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1025px) {
   .grey_nav {
     display: none;
     visibility: hidden;
