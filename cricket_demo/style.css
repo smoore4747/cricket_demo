@@ -32,16 +32,14 @@
   flex: 0 0 20%;
   min-width: 270px;
   justify-content: flex-end;
-
 }
 
 .rightnav {
   display: flex;
   flex-basis: 40%;
-  justify-content:center;
+  justify-content: center;
   gap: 40px;
   align-items: center;
-
 }
 
 #Smile {
@@ -71,7 +69,7 @@
   font-family: "SimplyCricketMedium";
   justify-content: space-between;
   height: auto;
-  width:100%;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -130,19 +128,12 @@
   display: flex;
   background-color: #60a630;
   padding-top: 20px;
-  height:auto;
-
+  height: auto;
 }
 
 .hero_image {
   display: flex;
-  overflow: hidden;
-}
-
-.hero_image > img {
-  object-fit: contain;
-  margin-bottom: -110px;
-  transform: translateX(-10px);
+  max-width: 50%;
 }
 
 .hero_text {
@@ -157,20 +148,20 @@
 #maintext {
   color: white;
   font-family: "SimplyCricketBook";
-  font-size: 40px;
+  font-size: clamp(25px, 40px, 50px);
 }
 
 #mainbolded {
   color: white;
   font-family: "SimplyCricketBold";
-  font-size: 125px;
+  font-size: clamp(100px, 50%, 125px);
   margin-bottom: -50px;
 }
 
-#watchParty{
+#watchParty {
   color: white;
   font-family: "SimplyCricketBold";
-  font-size: 125px;
+  font-size: clamp(100px, 50%, 125px);
 }
 
 #mainsmall {
@@ -187,7 +178,7 @@
 .main_text_smallbold {
   color: white;
   font-family: "SimplyCricketMedium";
-  font-size: 35px;
+  font-size: clamp(30px, 50%, 35px);
   padding-right: 20px;
 }
 
@@ -208,12 +199,12 @@
   .hero_image {
     flex: 1;
     max-width: 100%;
-    width:100%;
+    width: 100%;
     padding: 10px;
   }
   .hero_image > img {
     width: 100%;
-    margin: unset; 
+    margin: unset;
   }
   .hero_text {
     flex-wrap: wrap;
@@ -229,15 +220,14 @@
   #mainbolded {
     font-size: 13vw;
   }
-  #watchParty{
+  #watchParty {
     font-size: 13vw;
     margin-top: -1vw;
   }
-
 }
 @media (max-width: 590px) {
-  #url{
-    font-size:6vw;
+  #url {
+    font-size: 6vw;
   }
 }
 /**
@@ -280,7 +270,6 @@
   gap: 10px;
   margin-left: 25%;
   margin-right: 25%;
-
 }
 
 #official_rules {
@@ -294,11 +283,11 @@
 
 .content-container {
   border: 1px solid #babcc0;
-  border-radius: .5em;
-  font-size: clamp(.75em,.5472em + .7547vw,1em);
+  border-radius: 0.5em;
+  font-size: clamp(0.75em, 0.5472em + 0.7547vw, 1em);
   max-height: 200px;
   overflow: auto;
-  padding: .75rem;
+  padding: 0.75rem;
   margin-top: -150px;
   margin-bottom: 30px;
 }
@@ -306,7 +295,6 @@
 label[for="Agree"] {
   font-family: "SimplyCricketBook";
   font-size: 15px;
-  
 }
 
 label[for="opt"] {
@@ -345,10 +333,9 @@ select {
   border-radius: 20px;
 }
 
-@media (max-width: 950px){
+@media (max-width: 950px) {
   .content-container {
     margin-top: -75px;
-
   }
 }
 
@@ -435,7 +422,7 @@ select {
   #joincricket {
     font-size: 3vw;
   }
-  #watchParty{
+  #watchParty {
     font-size: 13vw;
     margin-top: 5vw;
   }
