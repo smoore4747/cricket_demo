@@ -20,7 +20,7 @@
 
 .grey_nav_container{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 65% 35%;
     grid-auto-flow: column;
     font-family: "SimplyCricketDemibold";
     background-color: #404041;
@@ -50,8 +50,9 @@
 .rightnav_container{
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: repeat(4, .15fr);
+    grid-template-columns: repeat(4, .22fr);
     align-items: center;
+    font-size: clamp(.3vw, .4vw, .5vw);
 }
 
 .white_nav{
@@ -61,7 +62,6 @@
     font-family: "SimplyCricketDemibold";
     font-size: .6rem;
     color: black;
-    height: 2.5vw;
 }
 
 .logo{
@@ -76,4 +76,140 @@
     grid-auto-flow: column;
     align-items: center;
     margin-right: 50px;
+    font-size: clamp(.5vw, .6vw, .7vw);
 }
+
+.thanks_container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    font-family: "SimplyCricketBold";
+    color: white;
+    background-image: url("/cricket_demo/Assets/thanksBackground.png");
+}
+
+#thankYou{
+    font-size: clamp(10vw, 160px, 15vw);  
+    margin-bottom: -20px;
+}
+
+#forEntering{
+    font-size: clamp(8vw, 42px, 10vw);
+    margin-left: 18%;
+    margin-right: 18%;
+    font-family: "SimplyCricketDemibold";
+}
+
+#checkOut{
+    font-size: 33px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: "SimplyCricketMedium";
+}
+
+.buttons_container{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 120px;
+}
+
+@media (max-width: 800px){
+    .buttons_container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.buttons_container > button{
+    background-color: #3170b7;
+    flex-shrink: 0;
+    font-family: "SimplyCricketBold";
+    font-size: 24px;
+    line-height: 12px;
+    text-align: center;
+    color: white;
+    width: 205px;
+    height: 72px;
+    border-radius: 10px;
+    border: 1px solid #3170b7;
+}
+
+.hero_image > img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.footer_container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 45% 15% 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #404041;
+    color: white;
+    font-family: "SimplyCricketBook";
+}
+
+.footer_links_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: clamp(5px, 9px, 9px);
+}
+
+.footer_links_container > h1{
+    margin-left: 20%;
+    text-decoration: underline;
+}
+
+#abbrRules{
+    margin-left: 20%;
+    overflow-wrap: break-word;
+    font-size: clamp(1vw, 14px, 14px);
+}
+
+.footer_smile_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.footer_icons_container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: minmax(min-content, 320px) repeat(4, 60px);
+    align-items: center;
+    margin-top: -20px;
+}
+
+#Smile {
+    font-size: clamp(1vw, 32px, 6vw);
+}
+
+#Join{
+    font-size: clamp(1vw, 25px, 5vw);
+}
+
+@media (max-width: 1025px) {
+    .footer_icons_container{
+        grid-auto-flow: row;
+        grid-template-columns: repeat(5, 1fr);
+        row-gap: 4vw;
+    }
+    .Join{
+        grid-column: span 5;
+        row-gap: 100px;
+    }
+    .social{
+        grid-column: span 2;
+        row-gap: 1vw;
+    }
+}
+
