@@ -18,117 +18,88 @@
   src: url("Assets/Fonts/SimplyCricket-Demibold.ttf");
 }
 
-.grey_nav_container {
-  display: grid;
-  grid-template-columns: 65% 35%;
-  grid-auto-flow: column;
-  font-family: "SimplyCricketDemibold";
+.grey_nav {
   background-color: #404041;
-  font-size: 0.4rem;
-  color: white;
-  height: auto;
-}
-
-.SignIn_container {
-  display: grid;
-  grid-auto-flow: column;
-  margin-left: 110px;
-}
-
-.SignIn_flex_container {
+  width: 100%;
+  height: 50px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 0.2vw;
+  justify-content: space-between;
+  font-family: "SimplyCricketDemibold";
 }
 
-.SignIn_flex_container > img {
+.SignIn {
+  display: flex;
+  flex: 0 0 20%;
+  min-width: 270px;
+  justify-content: flex-end;
+}
+
+.rightnav {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+#Smile {
   height: 33%;
   width: auto;
+  align-self: center;
 }
 
-.rightnav_container {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: .28fr repeat(3, 0.22fr);
-  align-items: center;
-  font-size: clamp(.3rem, 0.35vw, .75rem);
+#SignIn {
+  align-self: center;
+  font-size: 12px;
+  color: white;
+  padding-left: 5px;
 }
+
+.Nav {
+  font-size: 12px;
+  color: white;
+  margin-right: 10px;
+}
+
+/****
+**/
 
 .white_nav {
-  display: grid;
-  grid-template-columns: minmax(40%, max-content) 60%;
-  grid-auto-flow: column;
-  font-family: "SimplyCricketDemibold";
-  font-size: 0.6rem;
-  color: black;
+  display: flex;
+  font-family: "SimplyCricketMedium";
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.acct_nav_container {
+  display: flex;
+  flex: 0 0 55%;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  font-size: 9px;
+  margin-right: 5px;
 }
 
 .logo {
   display: flex;
-  height: 80%;
-  max-height: 80%;
-  margin-left: 90px;
+  flex-basis: 20%;
+  justify-content: flex-end;
 }
 
-.acct_nav_container {
-  display: grid;
-  grid-auto-flow: column;
-  align-items: center;
-  margin-right: 50px;
-  font-size: clamp(.5rem, 0.55vw, 1rem);
+#CricketLogo {
+  height: 80%;
+  width: auto;
 }
 
 .hamburger {
   display: none;
 }
 
-.mobile_nav {
-  display: none;
-  background-color: #404041;
-  color: #fff;
-  height: 100%;
-  max-width: 300px;
-  min-width: 200px;
-  overflow-y: auto;
-  padding-bottom: 2em;
-  position: absolute;
-  right: 0;
-  top: 80px;
-  font-size: 10px;
-  width: 50%;
-  font-family: "SimplyCricketDemibold";
-  box-sizing: border-box;
-}
-
-.mobile_white {
-  display: none;
-  background-color: white;
-  color: black;
-  margin-block-start: 0.67em;
-  margin-block-end: -0.7em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  line-height: 170%;
-  padding-left: 20px;
-  border-bottom: 2px solid #ebebeb;
-  border-left: 2px solid #ebebeb;
-}
-
-.mobile_nav > .Nav {
-  padding-left: 20px;
-}
-
-.mobile_nav > #Smile {
-  margin-block-start: 1em;
-}
-
-.mobile_nav > #storeLocator {
-  margin-block-start: 1em;
-}
-
 @media (max-width: 1025px) {
-  .grey_nav_container {
+  .grey_nav {
     display: none;
     visibility: hidden;
   }
@@ -139,17 +110,15 @@
   .logo {
     min-width: max-content;
     justify-content: flex-start;
-    margin-left: 20px;
   }
   .hamburger {
     display: block;
-    background-image: url("/cricket_demo/Assets/menu.png");
-    background-size: contain;
-    height: 2.5em;
+    background-image: url(icon_bars.png);
+    height: 1.875em;
     position: absolute;
-    right: 3rem;
+    right: 1rem;
     top: 1.75em;
-    width: 2.5em;
+    width: 1.875em;
   }
 }
 
@@ -172,10 +141,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 2%;
   max-width: 49.5%;
   margin-right: 10px;
-  padding-bottom: 20px;
 }
 
 #maintext {
@@ -188,17 +155,7 @@
   color: white;
   font-family: "SimplyCricketBold";
   font-size: clamp(100px, 50%, 125px);
-}
-
-.superscript_container{
-  margin-bottom: -40px;
-}
-
-.sup{
-  vertical-align: super;
-  color: white;
-  position: relative;
-  bottom: 2vw;
+  margin-bottom: -50px;
 }
 
 #watchParty {
@@ -210,14 +167,8 @@
 #mainsmall {
   color: white;
   font-family: "SimplyCricketBook";
-  font-size: clamp(35px, 50%, 40px);
-  padding-bottom: 25px;
-}
-
-#mainsmallbold{
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  padding-top: 15px;
+  font-size: 30px;
+  padding-bottom: 50px;
 }
 
 #Enter {
@@ -227,7 +178,7 @@
 .main_text_smallbold {
   color: white;
   font-family: "SimplyCricketMedium";
-  font-size: clamp(32px, 50%, 45px);
+  font-size: clamp(30px, 50%, 35px);
   padding-right: 20px;
 }
 
@@ -273,12 +224,6 @@
     font-size: 13vw;
     margin-top: -1vw;
   }
-  .superscript_container{
-    margin-bottom: 0px;
-  }
-  .sup{
-    bottom: 7vw;
-  }
 }
 @media (max-width: 590px) {
   #url {
@@ -296,7 +241,6 @@
   gap: 10px;
   margin-left: 25%;
   margin-right: 25%;
-  padding-bottom: 50px;
 }
 
 .leadform > label {
@@ -326,14 +270,6 @@
   gap: 10px;
   margin-left: 25%;
   margin-right: 25%;
-  padding-bottom: 50px;
-}
-
-#rules_border{
-  display: block;
-  margin-left: 20%;
-  margin-right: 20%;
-  border-top: 1px solid grey;
 }
 
 #official_rules {
@@ -348,7 +284,6 @@
 .content-container {
   border: 1px solid #babcc0;
   border-radius: 0.5em;
-  width: 44vw;
   font-size: clamp(0.75em, 0.5472em + 0.7547vw, 1em);
   max-height: 200px;
   overflow: auto;
@@ -389,92 +324,106 @@ select {
 #Submit {
   background-color: #3170b7;
   font-family: "SimplyCricketBold";
-  font-size: 24px;
+  font-size: 30px;
   color: white;
-  width: 22vw;
+  width: 45vw;
   height: 72px;
+  align-self: flex-;
   margin-top: 50px;
-  align-self: flex-end;
-  margin-right: 3.5vw;
   border-radius: 20px;
-  border: 1px solid #3170b7;
 }
 
 @media (max-width: 950px) {
   .content-container {
     margin-top: -75px;
   }
-  #Submit{
-    align-self: center;
-  }
 }
 
 /**
 **/
-.footer_container {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 45% 15% 40%;
-  margin-top: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.footer {
+  display: flex;
+  flex-direction: row;
   background-color: #404041;
   color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 200px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.legal {
+  display: flex;
+  flex-basis: 33%;
+  padding-left: 50px;
   font-family: "SimplyCricketBook";
+  font-size: 18px;
+  justify-content: center;
 }
 
-.footer_links_container {
+.policies {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  font-size: clamp(5px, 9px, 9px);
-}
-
-.footer_links_container > h1 {
-  margin-left: 20%;
-  text-decoration: underline;
-}
-
-#abbrRules {
-  margin-left: 20%;
-  overflow-wrap: break-word;
-  font-size: clamp(1vw, 14px, 14px);
-}
-
-.footer_smile_container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 40px;
-}
-
-.footer_icons_container {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: minmax(min-content, 320px) repeat(4, 60px);
+  flex-basis: 33%;
+  font-family: "SimplyCricketBook";
+  font-size: 18px;
   align-items: center;
-  margin-top: -20px;
 }
 
-#Smile {
-  font-size: clamp(1vw, 32px, 6vw);
+.socials {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+  font-family: "SimplyCricketMedium";
+  align-items: flex-start;
+  width: 100%;
+  flex: 1;
+  font-size: 20px;
 }
 
-#Join {
-  font-size: clamp(1vw, 25px, 5vw);
+#oncricket {
+  margin-right: 120px;
 }
 
-@media (max-width: 1025px) {
-  .footer_icons_container {
-    grid-auto-flow: row;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 2vw;
+.icons {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  width: 100%;
+}
+.icons > img {
+  width: auto;
+}
+
+@media (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
   }
-  .Join {
-    grid-row: span 1;
-    grid-column: span 4;
+  .legal {
+    padding-left: 10px;
+    justify-content: center;
   }
-  .social {
-    grid-row: span 1;
-    grid-column: span 1;
+  .socials {
+    justify-content: center;
+    align-items: center;
+  }
+  .icons {
+    justify-content: center;
+  }
+  #oncricket {
+    margin-right: 0;
+  }
+  #joincricket {
+    font-size: 3vw;
+  }
+  #watchParty {
+    font-size: 13vw;
+    margin-top: 5vw;
   }
 }
