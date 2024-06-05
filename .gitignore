@@ -1,10 +1,162 @@
-/.DS_Store
-/Survey_automation
-/__pycache__
-/automation
-/gigly
-/pinata
-/qa_checklist_wrike
-/remove_bg
-/tech_support_schedule
-/udemy
+udemy/.DS_Store
+udemy/web_dev_course/.DS_Store
+udemy/web_dev_course/2.1 Heading Element/goal.png
+udemy/web_dev_course/2.1 Heading Element/index.html
+udemy/web_dev_course/2.1 Heading Element/solution.html
+udemy/web_dev_course/2.2 Paragraph Element/goal.png
+udemy/web_dev_course/2.2 Paragraph Element/index.html
+udemy/web_dev_course/2.2 Paragraph Element/solution.html
+udemy/web_dev_course/2.3 Void Elements/goal.png
+udemy/web_dev_course/2.3 Void Elements/index.html
+udemy/web_dev_course/2.3 Void Elements/solution.html
+udemy/web_dev_course/2.4 Movie Ranking Project/goal.png
+udemy/web_dev_course/2.4 Movie Ranking Project/index.html
+udemy/web_dev_course/2.4 Movie Ranking Project/solution.html
+udemy/web_dev_course/3.0 List Elements/goal.png
+udemy/web_dev_course/3.0 List Elements/index.html
+udemy/web_dev_course/3.0 List Elements/solution.html
+udemy/web_dev_course/3.1 Nesting and Indentation/goal.png
+udemy/web_dev_course/3.1 Nesting and Indentation/index.html
+udemy/web_dev_course/3.1 Nesting and Indentation/solution.html
+udemy/web_dev_course/3.2 Anchor Elements/goal.png
+udemy/web_dev_course/3.2 Anchor Elements/index.html
+udemy/web_dev_course/3.2 Anchor Elements/solution.html
+udemy/web_dev_course/3.3 Image Elements/goal1.png
+udemy/web_dev_course/3.3 Image Elements/goal2.png
+udemy/web_dev_course/3.3 Image Elements/index.html
+udemy/web_dev_course/3.3 Image Elements/solution1.html
+udemy/web_dev_course/3.3 Image Elements/solution2.html
+udemy/web_dev_course/3.4 Birthday Invite Project/goal.png
+udemy/web_dev_course/3.4 Birthday Invite Project/index.html
+udemy/web_dev_course/3.4 Birthday Invite Project/solution.html
+udemy/web_dev_course/4.0 File Paths/dog.png
+udemy/web_dev_course/4.0 File Paths/Folder0/goal.png
+udemy/web_dev_course/4.0 File Paths/Folder0/index.html
+udemy/web_dev_course/4.0 File Paths/Folder0/rabbit.png
+udemy/web_dev_course/4.0 File Paths/Folder0/solution.html
+udemy/web_dev_course/4.0 File Paths/Folder0/Folder3/cat.png
+udemy/web_dev_course/4.0 File Paths/Folder1/fish.png
+udemy/web_dev_course/4.0 File Paths/Folder1/Folder2/bird.png
+udemy/web_dev_course/4.1+Webpages/4.1 Webpages/goal.png
+udemy/web_dev_course/4.1+Webpages/4.1 Webpages/index.html
+udemy/web_dev_course/4.1+Webpages/4.1 Webpages/solution.html
+udemy/web_dev_course/4.1+Webpages/4.1 Webpages/assets/images/cat.png
+udemy/web_dev_course/4.1+Webpages/4.1 Webpages/public/about.html
+udemy/web_dev_course/4.1+Webpages/4.1 Webpages/public/contact.html
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/goal.png
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/index.html
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/solution.html
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/assets/images/birthday-invite.png
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/assets/images/movie-ranking.png
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/public/about.html
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/public/birthday-invite.html
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/public/contact.html
+udemy/web_dev_course/4.1+Webpages/4.3 HTML Porfolio Project/public/movie-ranking.html
+udemy/web_dev_course/4.3 HTML Porfolio Project/goal.png
+udemy/web_dev_course/4.3 HTML Porfolio Project/index.html
+udemy/web_dev_course/4.3 HTML Porfolio Project/solution.html
+udemy/web_dev_course/4.3 HTML Porfolio Project/assets/images/birthday-invite.png
+udemy/web_dev_course/4.3 HTML Porfolio Project/assets/images/movie-ranking.png
+udemy/web_dev_course/4.3 HTML Porfolio Project/public/about.html
+udemy/web_dev_course/4.3 HTML Porfolio Project/public/birthday-invite.html
+udemy/web_dev_course/4.3 HTML Porfolio Project/public/contact.html
+udemy/web_dev_course/4.3 HTML Porfolio Project/public/movie-ranking.html
+udemy/web_dev_course/5.1. Adding CSS/external.html
+udemy/web_dev_course/5.1. Adding CSS/index.html
+udemy/web_dev_course/5.1. Adding CSS/inline.html
+udemy/web_dev_course/5.1. Adding CSS/internal.html
+udemy/web_dev_course/5.1. Adding CSS/style.css
+udemy/web_dev_course/5.1. Adding CSS/Solution/external.html
+udemy/web_dev_course/5.1. Adding CSS/Solution/inline.html
+udemy/web_dev_course/5.1. Adding CSS/Solution/internal.html
+udemy/web_dev_course/5.1. Adding CSS/Solution/solution.html
+udemy/web_dev_course/5.1. Adding CSS/Solution/style.css
+udemy/web_dev_course/5.3 CSS Selectors/goal.png
+udemy/web_dev_course/5.3 CSS Selectors/index.html
+udemy/web_dev_course/5.3 CSS Selectors/style.css
+udemy/web_dev_course/5.3 CSS Selectors/solution/solution-style.css
+udemy/web_dev_course/5.3 CSS Selectors/solution/solution.html
+udemy/web_dev_course/5.4 Color Vocab Project/goal.png
+udemy/web_dev_course/5.4 Color Vocab Project/index.html
+udemy/web_dev_course/5.4 Color Vocab Project/style.css
+udemy/web_dev_course/5.4 Color Vocab Project/assets/images/blue.png
+udemy/web_dev_course/5.4 Color Vocab Project/assets/images/green.png
+udemy/web_dev_course/5.4 Color Vocab Project/assets/images/orange.png
+udemy/web_dev_course/5.4 Color Vocab Project/assets/images/red.png
+udemy/web_dev_course/5.4 Color Vocab Project/assets/images/yellow.png
+udemy/web_dev_course/5.4 Color Vocab Project/solution/solution.html
+udemy/web_dev_course/5.4 Color Vocab Project/solution/style.css
+udemy/web_dev_course/5.4 Color Vocab Project/solution/assets/images/blue.png
+udemy/web_dev_course/5.4 Color Vocab Project/solution/assets/images/green.png
+udemy/web_dev_course/5.4 Color Vocab Project/solution/assets/images/orange.png
+udemy/web_dev_course/5.4 Color Vocab Project/solution/assets/images/red.png
+udemy/web_dev_course/5.4 Color Vocab Project/solution/assets/images/yellow.png
+Survey_automation/slot_voi/slot_voi1.py
+Survey_automation/slot_voi/slot_voi2.py
+remove_bg/key.txt
+remove_bg/remove_bg.py
+.gitignore
+automation/.DS_Store
+automation/chromedriver
+automation/dyna_auto.py
+automation/slot_voi1.py
+automation/ios_automation/Display_Template_commands.txt
+automation/ios_automation/ios_auto copy.py
+automation/ios_automation/ios_auto.py
+automation/ios_automation/ios_register.py
+automation/ios_automation/release_test.py
+automation/ios_automation/Signature_commands.txt
+automation/ios_automation/Toyota_commands.txt
+8bi/.DS_Store
+8bi/pyxelate-master.zip
+8bi/pyxelate-master/examples.ipynb
+8bi/pyxelate-master/invoke.py
+8bi/pyxelate-master/LICENSE
+8bi/pyxelate-master/pixel.png
+8bi/pyxelate-master/README.md
+8bi/pyxelate-master/requirements.txt
+8bi/pyxelate-master/setup.py
+8bi/pyxelate-master/examples/blazkowicz.jpg
+8bi/pyxelate-master/examples/br.jpg
+8bi/pyxelate-master/examples/br2.jpg
+8bi/pyxelate-master/examples/corgi.jpg
+8bi/pyxelate-master/examples/f1.jpg
+8bi/pyxelate-master/examples/kp.jpg
+8bi/pyxelate-master/examples/logo.png
+8bi/pyxelate-master/examples/ozego.png
+8bi/pyxelate-master/examples/p_blazkowicz.png
+8bi/pyxelate-master/examples/p_br.png
+8bi/pyxelate-master/examples/p_br2.png
+8bi/pyxelate-master/examples/p_corgi.png
+8bi/pyxelate-master/examples/p_fit_transform.png
+8bi/pyxelate-master/examples/p_palms.png
+8bi/pyxelate-master/examples/p_trex.png
+8bi/pyxelate-master/examples/p_vangogh.png
+8bi/pyxelate-master/examples/palms3.jpg
+8bi/pyxelate-master/examples/robocop.jpg
+8bi/pyxelate-master/examples/trex.png
+8bi/pyxelate-master/examples/vangogh.jpg
+8bi/pyxelate-master/pyxelate/__init__.py
+8bi/pyxelate-master/pyxelate/main.py
+8bi/pyxelate-master/pyxelate/pal.py
+8bi/pyxelate-master/pyxelate/pyx.py
+8bi/pyxelate-master/pyxelate/vid.py
+.vscode/settings.json
+qa_checklist_wrike/main.py
+qa_checklist_wrike/requirements.txt
+qa_checklist_wrike/token.json
+qa_checklist_wrike/localpackage/credentials.json
+qa_checklist_wrike/localpackage/token.json
+.gitignore
+tech_support_schedule/credentials.json
+tech_support_schedule/employees_test.txt
+tech_support_schedule/employees.txt
+tech_support_schedule/quickstart.py
+tech_support_schedule/tech_support_calendar.py
+tech_support_schedule/tech_support_email.py
+tech_support_schedule/tech_support.py
+tech_support_schedule/token.json
+tech_support_schedule/__pycache__/email.cpython-311.pyc
+__pycache__/email.cpython-311.pyc
+.DS_Store
+.gitignore
